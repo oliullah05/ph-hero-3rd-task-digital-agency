@@ -1,7 +1,9 @@
 *{  margin: 0;
     padding: 0;
 }
+body .appointment-section{
 
+}
 
 
 
@@ -157,3 +159,78 @@ padding: 5px 0;
 }
 
     /* service section end */
+
+    /* appointment section staRT */
+
+.appointment-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.526);
+    width: 70%;
+ margin: 0 auto;
+ border-radius: 20px;
+
+}
+
+.appointment-section div{
+    /* width: 566px;
+    height: 144px;
+    border: 1px solid red; */
+  
+}
+.div1 img{
+height: 150px;
+width: 150px;
+
+}
+.div1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 566px;
+height: 144px;
+
+/* border: 1px solid red; */
+}
+.div1-text{
+   text-align: center;
+}
+.div1-text .p-1{
+   margin-top: 42px;
+}
+.div1-text .p-2{
+   font-size: 35px;
+}
+.div2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 666px;
+height: 144px;
+/* border: 1px solid red; */
+}
+.div2{
+font-size: 25px;
+}
+.div3{
+    width: 200px;
+    height: 144px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 button{
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgba(137, 43, 226, 0.234);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+ /* appointment section end */
+
+ /* footer start */
